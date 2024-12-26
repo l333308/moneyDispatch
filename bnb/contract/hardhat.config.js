@@ -13,7 +13,8 @@ module.exports = {
     bsc: {
       url: "https://bsc-dataseed1.binance.org",
       accounts: [process.env.PRIVATE_KEY],
-      chainId: 56
+      chainId: 56,
+      gasPrice: 1000000000,
     }
   },
   etherscan: {
