@@ -3,10 +3,17 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# bnb目录
 bnb/contracts/abi.json
 bnb/contracts/node_modules
 bnb/contracts/package-lock.json
 bnb/contracts/.env
+
+$ sol目录
+sol/node_modules
+sol/.env
+sol/yarn.lock
+sol/dist
 
 # C extensions
 *.so
